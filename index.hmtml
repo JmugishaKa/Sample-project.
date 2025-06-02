@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talitha Koum - Faithful Fashion for Kigali-Rwanda.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .animate-hero { animation: fadeIn 1s ease-in-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    .hover-scale { transition: transform 0.3s ease; }
+    .hover-scale:hover { transform: scale(1.05); }
+  </style>
+</head>
+<body class="bg-gray-50">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-b from-gray-100 to-blue-100 text-gray-900 py-24">
+    <div class="container mx-auto px-4 text-center animate-hero">
+      <h1 class="text-5xl md:text-6xl font-bold mb-4">Talitha Koum</h1>
+      <p class="text-xl md:text-2xl mb-8 text-gray-700">Elegant Christian Outfits for the Faithful in <Kigali-Rwanda class=""></Kigali-Rwanda></p>
+      <a href="#shop-now" class="bg-blue-500 text-white font-semibold py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300 hover-scale">Discover Now</a>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-semibold text-center text-gray-900 mb-12">Wear Your Faith with Grace</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div class="text-center hover-scale">
+          <img src="christian-girls Outfit.png" alt="Inspired Designs" class="mx-auto mb-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-gray-900">Inspired by Faith</h3>
+          <p class="text-gray-600 mt-2">Timeless designs with subtle crosses and biblical motifs, crafted for worship and celebration.</p>
+        </div>
+        <div class="text-center hover-scale">
+          <img src="faith jumpers..png" alt="Premium Craftsmanship" class="mx-auto mb-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-gray-900">Uncompromising Quality</h3>
+          <p class="text-gray-600 mt-2">Luxurious fabrics and meticulous craftsmanship for comfort and elegance.</p>
+        </div>
+        <div class="text-center hover-scale">
+          <img src="Community outfit.png" alt="Community Focus" class="mx-auto mb-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-gray-900">For Our Community</h3>
+          <p class="text-gray-600 mt-2">Designed to resonate with the heart of Kigali-Rwanda’s Christian community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-20 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-semibold text-center text-gray-900 mb-12">Voices of Our Community</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-lg shadow-md hover-scale">
+          <p class="text-gray-600 italic text-lg">"Talitha Koum’s outfits make every church service feel special. The designs are breathtaking!"</p>
+          <p class="mt-4 font-semibold text-gray-900">– Esther, Kigali</p>
+        </div>
+        <div class="bg-white p-8 rounded-lg shadow-md hover-scale">
+          <p class="text-gray-600 italic text-lg">"The quality and elegance of these outfits reflect my faith beautifully."</p>
+          <p class="mt-4 font-semibold text-gray-900">– Paul, Kabuga</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop Now Section with Form -->
+  <section id="shop-now" class="py-20 bg-gradient-to-b from-blue-100 to-gray-100 text-gray-900">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-semibold mb-6">Embrace Talitha Koum Today</h2>
+      <p class="text-lg mb-8 text-gray-700">Sign up to explore our exclusive collection of faith-inspired outfits.</p>
+      <div class="max-w-md mx-auto">
+        <input type="text" placeholder="Your Name" class="w-full p-4 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+        <input type="email" placeholder="Your Email" class="w-full p-4 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+        <button class="bg-blue-500 text-white font-semibold py-4 px-8 rounded-full hover:bg-blue-600 transition duration-300 hover-scale">Get Started</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-200 py-12">
+    <div class="container mx-auto px-4 text-center">
+      <p class="text-lg">Talitha Koum &copy; 2025. All rights reserved.</p>
+      <p class="mt-2">Crafted with love for the Christian community in Kigali-Rwanda.</p>
+    </div>
+  </footer>
+</body>
+</html>
